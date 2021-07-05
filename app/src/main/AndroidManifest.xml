@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app">
+
+    <application
+        android:name=".utils.App"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.BaseApp"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:supportsRtl,android:allowBackup">
+        <activity android:name=".features.addCreditCard.view.AddCreditCardActivity" />
+        <activity android:name=".features.main.view.MainActivity" />
+        <activity android:name=".features.sinUp.view.SinUpActivity" />
+        <activity android:name=".features.logIn.view.LogInActivity" />
+        <activity android:name=".features.introApp.view.FeatureActivity" />
+        <activity android:name=".features.splash.view.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/marginBtnView"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:textDirection="ltr">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_w_h">
+
+        <com.app.utils.RoundishImageView
+            android:id="@+id/credite_cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_visa"
+            android:layout_marginStart="@dimen/smallMargin"
+            android:layout_marginEnd="@dimen/smallMargin"
+            android:scaleType="fitXY"
+            app:cornerRadius="@dimen/marginBtnView"
+            app:roundedCorners="all" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/progress"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="@dimen/iconMiniHeight"
+            android:layout_height="@dimen/iconMiniHeight"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:indicatorColor="@color/white"
+            app:indicatorName="BallSpinFadeLoaderIndicator" />
+
+        <com.app.utils.RoundishImageView
+            android:id="@+id/iv_master_card_logo"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="top|end"
+            android:layout_marginTop="@dimen/marginBtnView"
+            android:layout_marginEnd="@dimen/marginBtnView"
+            android:padding="0dp"
+            android:paddingStart="@dimen/paddingEditText"
+            android:paddingEnd="@dimen/paddingEditText"
+            android:src="@drawable/ic_mastercard_logo"
+            android:visibility="gone"
+            app:cornerRadius="@dimen/marginBtnView"
+            app:roundedCorners="all" />
+
+        <TextView
+            android:id="@+id/tv_cardHolderName"
+            style="@style/TitleTextViewStyle"
+            android:layout_height="@dimen/iconSmallHeight"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="@dimen/normalMargin"
+            android:layout_marginTop="@dimen/marginBtnView"
+            android:layout_marginEnd="@dimen/marginBtnView"
+            android:layout_marginBottom="@dimen/extraExtraMargin"
+            android:paddingStart="@dimen/paddingEditText"
+            android:paddingEnd="@dimen/paddingEditText"
+            android:text="FAYEQ ALMABHOUH"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_cardNumber"
+            style="@style/TitleTextViewStyle"
+            android:layout_gravity="start|bottom"
+            android:layout_marginStart="@dimen/normalMargin"
+            android:layout_marginTop="@dimen/marginBtnView"
+            android:layout_marginEnd="@dimen/marginBtnView"
+            android:layout_marginBottom="@dimen/extraExtraMargin"
+            android:paddingStart="@dimen/paddingEditText"
+            android:paddingEnd="@dimen/paddingEditText"
+            android:fontFamily="@font/roboto_medium"
+            android:text="**** **** **** 8765"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_cvv"
+            style="@style/TitleTextViewStyle"
+            android:layout_gravity="end|bottom"
+            android:layout_marginStart="@dimen/normalMargin"
+            android:layout_marginTop="@dimen/marginBtnView"
+            android:layout_marginEnd="@dimen/marginBtnView"
+            android:layout_marginBottom="@dimen/extraExtraMargin"
+            android:paddingStart="@dimen/paddingEditText"
+            android:paddingEnd="@dimen/paddingEditText"
+            android:fontFamily="@font/roboto_medium"
+            android:text="1234"
+            android:textColor="@color/white" />
+    </FrameLayout>
+</LinearLayout>

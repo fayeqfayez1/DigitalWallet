@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "216977397624",
+    "project_id": "digitalwallet-45922",
+    "storage_bucket": "digitalwallet-45922.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216977397624:android:221004598a43c0da8fda8d",
+        "android_client_info": {
+          "package_name": "app.digitalwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216977397624-c8hs55p0he9ic4t0elm401fodn32qs9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoSl54iUIR-5qaVjls9Ny4vql6R3kjVQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216977397624-c8hs55p0he9ic4t0elm401fodn32qs9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216977397624:android:19138147efec7c698fda8d",
+        "android_client_info": {
+          "package_name": "com.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216977397624-c8hs55p0he9ic4t0elm401fodn32qs9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoSl54iUIR-5qaVjls9Ny4vql6R3kjVQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216977397624-c8hs55p0he9ic4t0elm401fodn32qs9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

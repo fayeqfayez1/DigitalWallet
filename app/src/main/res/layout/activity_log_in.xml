@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_onboarding"
+    android:orientation="vertical"
+    tools:context=".features.logIn.view.LogInActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/extraExtraMargin"
+        app:contentInsetEnd="0dp"
+        app:contentInsetStart="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/NormalTextViewStyle"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="0dp"
+                android:text="@string/login"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSizeVeryLarge" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/normalMargin"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:layout_marginEnd="@dimen/normalMargin"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_white_logo" />
+
+        <TextView
+            style="@style/NormalTextViewStyle"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="0dp"
+            android:text="@string/email"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/ed_email"
+            style="@style/TextInputEditTextStyle"
+            android:layout_marginStart="@dimen/smallMargin"
+            android:layout_marginEnd="@dimen/smallMargin"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="@dimen/dim_12_padding"
+            android:hint="@string/enter_your_email_here"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            style="@style/NormalTextViewStyle"
+            android:layout_marginTop="@dimen/normalMargin"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="0dp"
+            android:text="@string/password"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/ed_password"
+            style="@style/TextInputEditTextStyle"
+            android:layout_marginStart="@dimen/smallMargin"
+            android:layout_marginEnd="@dimen/smallMargin"
+            android:drawableStart="@drawable/ic_pasword"
+            android:drawablePadding="@dimen/dim_12_padding"
+            android:hint="@string/enter_your_password_here"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/tv_forget_password"
+            style="@style/NormalTextViewStyle"
+            android:layout_gravity="end"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/forgot_password"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normalMargin"
+            android:layout_marginTop="@dimen/normalMargin"
+            android:layout_marginEnd="@dimen/normalMargin"
+            android:layout_marginBottom="@dimen/extraExtraMargin"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_sign_in"
+                style="@style/BlueButtonStyle"
+                android:layout_marginStart="@dimen/extraExtraMargin"
+                android:layout_marginEnd="@dimen/extraExtraMargin"
+                android:text="@string/login" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/extraExtraMargin"
+                android:layout_marginTop="@dimen/normalMargin"
+                android:layout_marginEnd="@dimen/extraExtraMargin"
+                android:layout_marginBottom="@dimen/extraExtraMargin"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/NormalTextViewStyle"
+                    android:layout_width="@dimen/store_img_w_h"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_bg_normal"
+                    android:padding="0dp"
+                    android:textColor="@color/text_color" />
+
+                <TextView
+                    style="@style/NormalTextViewStyle"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/smallMargin"
+                    android:layout_marginEnd="@dimen/smallMargin"
+                    android:layout_weight="1"
+                    android:text="@string/or"
+                    android:textColor="@color/text_color" />
+
+                <TextView
+                    style="@style/NormalTextViewStyle"
+                    android:layout_width="@dimen/store_img_w_h"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_bg_normal"
+                    android:padding="0dp"
+                    android:textColor="@color/text_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_facebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_facbook" />
+
+                <ImageView
+                    android:id="@+id/iv_gmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_gmail" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_sign_up"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/NormalTextViewStyle"
+                    android:text="@string/dont_have_account"
+                    android:textColor="@color/gray" />
+
+                <TextView
+                    android:id="@+id/tv_sign_up"
+                    style="@style/NormalTextViewStyle"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="@string/register_here"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

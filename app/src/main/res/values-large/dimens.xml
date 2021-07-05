@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- intro -->
+    <dimen name="image_height">250dp</dimen>
+
+    <!-- home -->
+    <dimen name="item_w_h">165dp</dimen>
+
+    <!-- sub categories screen -->
+    <dimen name="item_sub_category_h">110dp</dimen>
+    <dimen name="item_sub_category_small_h">90dp</dimen>
+
+    <!-- category products -->
+    <dimen name="img_w_h">65dp</dimen>
+
+    <!-- profile -->
+    <dimen name="edit_btn_w">85dp</dimen>
+    <dimen name="user_profile_w_h">105dp</dimen>
+
+
+    <!-- store details -->
+    <dimen name="store_img_w_h">95dp</dimen>
+
+</resources>

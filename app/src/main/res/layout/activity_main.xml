@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_onboarding"
+    android:orientation="vertical"
+    tools:context=".features.main.view.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/no_credite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/extraExtraMargin"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extraExtraMargin"
+            app:srcCompat="@drawable/ic_no_credite" />
+
+        <TextView
+            style="@style/TitleTextViewStyle"
+            android:layout_marginTop="@dimen/normalMargin"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/add_creditionals_to_loop"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSizeLarge" />
+
+        <TextView
+            style="@style/NormalTextViewStyle"
+            android:layout_marginStart="@dimen/extraMargin"
+            android:layout_marginTop="@dimen/smallMargin"
+            android:layout_marginEnd="@dimen/extraMargin"
+            android:fontFamily="@font/roboto_regular"
+            android:singleLine="false"
+            android:text="@string/main_paragraph"
+            android:textAlignment="center"
+            android:textColor="@color/black15" />
+
+        <Button
+            android:id="@+id/btn_next"
+            style="@style/BlueButtonStyle"
+            android:layout_marginStart="@dimen/extraExtraMargin"
+            android:layout_marginTop="@dimen/extraExtraMargin"
+            android:layout_marginEnd="@dimen/extraExtraMargin"
+            android:padding="@dimen/paddingSmall"
+            android:text="@string/next" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/have_credite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/ib_nav_add_bu"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/normalMargin"
+                app:contentInsetEnd="0dp"
+                app:contentInsetStart="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        style="@style/TitleTextViewStyle"
+                        android:layout_centerInParent="true"
+                        android:text="@string/wallets"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/textSizeLarge"
+                        android:textColor="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/ib_add_credit"
+                        android:layout_width="?attr/actionBarSize"
+                        android:layout_height="?attr/actionBarSize"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="start"
+                        android:layout_marginEnd="@dimen/normalMargin"
+                        android:background="@null"
+                        app:srcCompat="@drawable/ic_add"
+                        tools:ignore="ContentDescription" />
+
+                </RelativeLayout>
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/normalMargin"
+                android:layout_marginEnd="@dimen/normalMargin"
+                android:nestedScrollingEnabled="false"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="3"
+                tools:itemCount="8"
+                tools:listitem="@layout/item_show_credite_data" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ib_nav_add_bu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="start"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="1dp"
+            android:background="@null"
+            app:srcCompat="@drawable/ic_main"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+</LinearLayout>

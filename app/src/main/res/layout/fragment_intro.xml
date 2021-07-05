@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/extraExtraMargin"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:textDirection="ltr"
+    tools:context=".features.introApp.fragmen.IntroFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/extraMargin"
+        android:layout_marginTop="@dimen/extraExtraMargin"
+        android:layout_marginEnd="@dimen/extraMargin">
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/progress"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="@dimen/iconMiniHeight"
+            android:layout_height="@dimen/iconMiniHeight"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:indicatorColor="@color/colorPrimary"
+            app:indicatorName="@string/BallSpinFadeLoaderIndicator" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TitleTextViewStyle"
+        android:layout_marginTop="@dimen/extraMargin"
+        android:padding="0dp"
+        android:textAllCaps="true"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/textSizeExtraLarge"
+        tools:text="Easily Accessible" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        style="@style/NormalTextViewStyle"
+        android:layout_marginStart="@dimen/extraMargin"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:layout_marginEnd="@dimen/extraMargin"
+        android:singleLine="false"
+        android:textColor="@color/text_color"
+        tools:text="Access your account anytime anywhere, no hasselefor any kind of transaction. Transfer, pay or buy anythinganywhere, your account is in your fingertips." />
+</LinearLayout>

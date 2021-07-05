@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!-- Start of my dimen -->
+    <dimen name="textSizeHuge">34sp</dimen>
+    <dimen name="textSizeVeryLarge">28sp</dimen>
+    <dimen name="textSizeExtraLarge">22sp</dimen>
+    <dimen name="textSizeLarge">20sp</dimen>
+    <dimen name="textSizeTitleLarge">18sp</dimen>
+    <dimen name="textSizeTitle">16sp</dimen>
+    <dimen name="textSizeNormal">14sp</dimen>
+    <dimen name="textSizeMini">12sp</dimen>
+    <dimen name="textSizeExtraMini">11sp</dimen>
+
+    <dimen name="iconSmallHeight">30dp</dimen>
+    <dimen name="iconMiniHeight">18dp</dimen>
+
+    <dimen name="smallMargin">5dp</dimen>
+    <dimen name="marginBtnView">10dp</dimen>
+    <dimen name="margin20">20dp</dimen>
+    <dimen name="normalMargin">16dp</dimen>
+    <dimen name="padding">12dp</dimen>
+    <dimen name="paddingText">10dp</dimen>
+    <dimen name="paddingEditText">14dp</dimen>
+    <dimen name="halfMargin">8dp</dimen>
+    <dimen name="extraMargin">22dp</dimen>
+    <dimen name="extraExtraMargin">35dp</dimen>
+    <dimen name="mediumMargin">55dp</dimen>
+    <dimen name="hugeMargin">65dp</dimen>
+
+    <dimen name="btnCorner">20dp</dimen>
+    <dimen name="btn_h">43dp</dimen>
+    <dimen name="btn_h_small">35dp</dimen>
+    <dimen name="btn_h_extra_small">25dp</dimen>
+    <dimen name="editTextCorner">16dp</dimen>
+    <!-- End of my dimen -->
+
+
+    <!-- intro -->
+    <dimen name="image_height">240dp</dimen>
+
+    <!--sign up-->
+    <dimen name="flag_w">28dp</dimen>
+    <dimen name="flag_h">14dp</dimen>
+
+
+    <!-- home -->
+    <dimen name="item_w_h">160dp</dimen>
+
+
+    <!-- sub categories screen -->
+    <dimen name="item_sub_category_h">100dp</dimen>
+    <dimen name="item_sub_category_small_h">80dp</dimen>
+
+    <!-- category products -->
+    <dimen name="img_w_h">60dp</dimen>
+
+
+    <!-- profile -->
+    <dimen name="edit_btn_w">80dp</dimen>
+    <dimen name="user_profile_w_h">100dp</dimen>
+
+    <!-- store details -->
+    <dimen name="store_img_w_h">85dp</dimen>
+
+
+    <!--///////////////-->
+    <dimen name="profile_height">100dp</dimen>
+
+
+    <dimen name="margin_left_right">30dp</dimen>
+
+
+    <!--    <dimen name="padding">10dp</dimen>-->
+    <dimen name="editTextMarginInside">18dp</dimen>
+    <dimen name="marginBtwnViews">10dp</dimen>
+
+    <dimen name="layout_margin">10dp</dimen>
+
+    <dimen name="textSizeSmall">14sp</dimen>
+    <dimen name="textSize">18sp</dimen>
+    <dimen name="textSizeLarge2">22sp</dimen>
+    <dimen name="titleTextSize">20sp</dimen>
+
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">15sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">15sp</dimen>
+
+    <dimen name="headerHeight">250dp</dimen>
+
+    <dimen name="design_navigation_icon_size" tools:override="true">15dp</dimen>
+    <dimen name="design_navigation_icon_padding" tools:override="true">6dp</dimen>
+    <dimen name="design_navigation_padding_bottom" tools:override="true">4dp</dimen>
+    <dimen name="design_navigation_max_width" tools:override="true">20dp</dimen>
+
+
+    <dimen name="smallPadding">5dp</dimen>
+    <dimen name="toggleWidth">40dp</dimen>
+
+    <dimen name="user_icon_width">24dp</dimen>
+
+    <dimen name="dot">20dp</dimen>
+
+
+    <dimen name="dim_12_padding">12dp</dimen>
+    <dimen name="dim_2_padding">2dp</dimen>
+    <dimen name="dim_4_padding">4dp</dimen>
+    <!--    &lt;!&ndash; Size Dimen &ndash;&gt;-->
+    <!--    <dimen name="smallMargin">5dp</dimen>-->
+    <!--    <dimen name="marginBtnView">10dp</dimen>-->
+    <!--    <dimen name="normalMargin">16dp</dimen>-->
+    <!--    <dimen name="paddingText">10dp</dimen>-->
+    <!--    <dimen name="paddingEditText">10dp</dimen>-->
+    <!--    <dimen name="extraMargin">22dp</dimen>-->
+    <!--    <dimen name="extraExtraMargin">35dp</dimen>-->
+    <!--    <dimen name="btn_h">43dp</dimen>-->
+    <!--    <dimen name="btn_h_small">38dp</dimen>-->
+    <!-- profile screen -->
+    <dimen name="img_user_large_w_h">160dp</dimen>
+    <!-- home -->
+    <dimen name="adds_height">140dp</dimen>
+
+    <dimen name="image_slider_height">170dp</dimen>
+
+
+</resources>

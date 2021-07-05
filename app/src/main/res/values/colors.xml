@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#6C56F9</color>
+    <color name="colorAccent_10">#1A0081B8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_65">#A6FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black15">#060220</color>
+    <color name="dark_yalow">#FF9C00</color>
+    <color name="light_gray">#B6BDCB</color>
+    <color name="gray">#5B5959</color>
+    <color name="background">#F8F8FC</color>
+    <color name="gray_li">#9C9C9C</color>
+    <color name="title_text_grey">#5B5B5B</color>
+    <color name="viewLine">#D7D4D4</color>
+    <color name="light_black">#393939</color>
+    <color name="text_color">#393939</color>
+    <color name="text_color_50">#80393939</color>
+    <color name="text_color_57">#91393939</color>
+    <color name="text_color_40">#66393939</color>
+    <color name="text_color_25">#40393939</color>
+    <color name="hint_color">#B5B5B5</color>
+    <color name="concrete">#F2F2F2</color>x
+    <color name="silver_chalice">#A0A0A0</color>
+    <color name="dove_gray_10">#1A707070</color>
+    <color name="gray_about">#909090</color>
+    <color name="shipped">#3CA1B8</color>
+    <color name="orange">#FF6700</color>
+    <color name="gray_pending">#9E9E9E</color>
+    <color name="web_orange">#F6A400</color>
+    <color name="lineEditTextColor">#E5E5E5</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_transparent">#8C000000</color>
+
+    <color name="cinnabar">#E62E2E</color>
+    <color name="green">#4ECC19</color>
+    <color name="silver">#AFAFAF</color>
+    <color name="gallery">#EBEBEB</color>
+
+    <color name="discount_line_color">#505050</color>
+
+    <color name="line">#219BAED4</color>
+
+    <color name="alto">#DCDCDC</color>
+
+    <color name="gray_10">#1A707070</color>
+    <color name="gray_60">#99313131</color>
+    <color name="gray_light_80">#CC6A6767</color>
+    <color name="black_light">#3F4043</color>
+    <color name="color_border_29">#4A979797</color>
+    <color name="white_48">#7AFFFFFF</color>
+
+    <color name="redColor">#f7222e</color>
+    <color name="purple">#47227D</color>
+    <color name="dark_gray">#6D6D6D</color>
+    <color name="line_6">#0F707070</color>
+</resources>

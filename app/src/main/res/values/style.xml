@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.BaseApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+    <!-- Dialog Style !-->
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent
+        </item>
+        <item name="android:windowSoftInputMode">adjustResize|stateVisible</item>
+    </style>
+
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/border_rect_top</item>
+    </style>
+    <!-- Text View Style !-->
+    <style name="TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/paddingText</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextViewStyleWithoutPadding">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/muli_regular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="HeaderTextViewStyle" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/textSizeTitleLarge</item>
+
+    </style>
+
+    <style name="TitleTextViewStyle" parent="TextViewStyle">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/textSizeTitle</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="NormalTextViewStyle" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="SmallTextViewStyle" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/textSizeMini</item>
+    </style>
+
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+        <item name="android:textColor">@color/dark_yalow</item>
+        <item name="android:fontFamily">@font/muli_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">80dp</item>
+    </style>
+    <!-- Button Style !-->
+   <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+        <item name="android:stateListAnimator" tools:targetApi="lollipop">@null</item>
+    </style>
+
+    <style name="BlueButtonStyle" parent="ButtonStyle">
+        <item name="android:background">@drawable/blue_btn</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+    </style>
+
+    <style name="LightBlackButtonStyle" parent="ButtonStyle">
+        <item name="android:background">@drawable/light_black_btn</item>
+    </style>
+
+
+    <style name="CircleButtonStyle" parent="ButtonStyle">
+        <item name="android:background">@drawable/circle_btn</item>
+    </style>
+
+    <style name="GrayBlueButtonStyle" parent="ButtonStyle">
+        <item name="android:background">@drawable/gray_btn</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LightGrayBlueButtonStyle" parent="ButtonStyle">
+        <item name="android:background">@drawable/light_gray_btn</item>
+        <item name="android:textColor">@color/light_black</item>
+    </style>
+
+    <style name="WhiteButtonBlueBorderStyle" parent="ButtonStyle">
+        <item name="android:background">@drawable/btn_white_with_border</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextInputEditTextStyle">
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/muli_regular</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:padding">@dimen/paddingEditText</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:background">@drawable/edt_bg_selector</item>
+    </style>
+    <style name="spinner_style">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:dropDownWidth">533dp</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:popupBackground">@drawable/bottom_corner_white</item>
+        <item name="android:dropDownHeight">@dimen/img_w_h</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:dropDownSelector">@android:color/white</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Loop Wallet</string>
+
+    <!--// select dialog-->
+    <string name="select_image_dialog_user_camera">Camera</string>
+    <string name="select_image_dialog_from_album">Gallery</string>
+    <string name="select_image_dialog_choose_image">Choose image</string>
+    <string name="select_file">File</string>
+
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <!-- my default texts -->
+    <string name="arabic">Arabic</string>
+    <string name="english">English</string>
+    <string name="start">Start</string>
+    <string name="error">An error occurs, please try again…</string>
+    <string name="time_out_error">time out error</string>
+    <string name="ok">OK</string>
+    <string name="open">Open</string>
+    <string name="BallSpinFadeLoaderIndicator">BallSpinFadeLoaderIndicator</string>
+    <string name="newNotification">You have a new notification</string>
+    <string name="must_login">You must be logged in to continue!</string>
+    <string name="isRequired">This field is required</string>
+    <string name="retry">Retry</string>
+    <string name="alert">Attention</string>
+    <string name="cancel">Cancel</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="isRequiredF">This field is required</string>
+    <string name="noInternetConnection">Check your internet connection.</string>
+    <string name="invalidEmail">Invalid Email</string>
+    <string name="password_invalid">Weak password was entered .. Password must contain at least 6 Characters</string>
+    <string name="password_missmatch">Password and confirm password are not match</string>
+    <string name="permission_not_granted_error"> You must give this application this permission in order to function properl </string>
+    <string name="gps_not_granted_error"> You must turn on GPS to continue </string>
+    <string name="added_successfully">Added Successfully</string>
+    <string name="mobile_invalid_error">Mobile number is invalid</string>
+    <string name="are_you_sure_to_logout">Are you sure you want to sign out?</string>
+    <string name="loginMsg">You must login to continue !</string>
+    <string name="skip">skip</string>
+    <string name="guest">Guest</string>
+    <string name="not_developed">Not Developed</string>
+    <string name="error_date_current">You must select to time larger than from time</string>
+
+    <string name="distance_format">%s Km</string>
+
+    <!-- image compress -->
+    <string name="failLoadImg">Error in load pic</string>
+    <string name="noImagePick">No image selected</string>
+    <string name="video_too_large">Video is too large, must be smaller than 60 second</string>
+    <string name="fail_load_video">Fail upload another video</string>
+    <string name="error_name">Username is required</string>
+    <string name="error_first_name">First Name is required</string>
+    <string name="error_last_name">Last Name is required</string>
+    <string name="error_mobile">User mobile is required</string>
+    <string name="error_address">User address is required</string>
+    <string name="error_gender">User gender is required</string>
+    <string name="error_dob">User birthday is required</string>
+    <string name="error_country">User country is required</string>
+    <string name="error_city">City is required</string>
+    <string name="error_email">Email is required</string>
+    <string name="error_valid_email">Please enter a valid email</string>
+    <string name="error_old_password">Old password is required</string>
+    <string name="error_password">Password is required</string>
+    <string name="error_week_password">Week password was entered.\n Password must contains at least 6 characters</string>
+    <string name="error_conf_password">Confirm Password is required</string>
+    <string name="error_match_password">The password and confirmation \n password must match</string>
+    <string name="no_user_found">Cannot find user data in database</string>
+    <string name="permission_denied">Permission denied.\nYou don\'t able to add image!!</string>
+    <string name="msg_clear_token_failed">Please try again so you can log off</string>
+    <string name="checkEmail">reset password link send to your email address</string>
+    <string name="pass_email_invalid">Sorry!! Wrong Email or Password</string>
+    <string name="emailInvalid">This account was not found</string>
+    <string name="ERR_emailExist">This email already exists</string>
+    <string name="verify_email">Your account has been created successfully. Please check your inbox</string>
+    <string name="please_verify_email">Please verify your email, check your inbox</string>
+    <string name="update_success">Your account has been Updated successfully</string>
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="need_help">Need help with your password ?</string>
+    <string name="enter_the_email">Enter the email you use for Modern Arts, and we\'ll help you create a new password.</string>
+    <string name="send">Send</string>
+    <string name="scans">Scans</string>
+    <string name="email_sent">Your password has been sent to you</string>
+    <string name="account_not_found">This account was not found</string>
+    <!--LogIn And SinUp String-->
+    <string name="login">Log In</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email_here">Enter your email here</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password_here">Enter your password here</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or">Or</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="register_here">Register here</string>
+    <string name="register_new_account">Register New Account</string>
+    <string name="no_data_found">No data found</string>
+    <string name="clientService">Customer Service</string>
+    <string name="adminChat">Chat with customer sسervice </string>
+    <string name="error_in_login_with_google">Error registering using Google</string>
+    <string name="your_full_name">Your Full Name</string>
+    <string name="enter_your_full_name_here">Enter your full name here</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="re_typ_password">Re-type password</string>
+    <string name="register_account">Register Account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_here">Log In here</string>
+
+    <string name="add_creditionals_to_loop">Add Creditionals to Loop</string>
+    <string name="main_paragraph">Add your bank credit/debit card to Loop for manage your expenses and set your budget for savings</string>
+    <string name="next">Next</string>
+    <string name="add_credit_card">Add Credit Card</string>
+    <string name="card_information">Card Information</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="CCV">CCV</string>
+    <string name="expired_date">Expired Date</string>
+    <string name="add_card">Add Card</string>
+    <string name="card_number_hint">XXXXXXX   XXX   XXXXXXXX</string>
+    <string name="your_name_here">Your Name Here</string>
+    <string name="ccv_hint">XXXXXX</string>
+    <string name="expired_date_hint">XX-XXXX</string>
+    <string name="card_type">Card Type</string>
+    <string name="visa_card">Visa Card</string>
+    <string name="master_card">Master Card</string>
+    <string name="wallets">Wallets</string>
+    <string name="credit_card_add_successful">Credit Card Add Successful</string>
+    <string name="wrong_credit_card_number">Wrong Credit Card Number </string>
+    <string name="wrong_cvv_number">Wrong CVV Number </string>
+    <string name="card_type_required">Card Typ is required</string>
+
+    <string-array name="card_type">
+        <item>Choose Card Type</item>
+        <item>Visa Card</item>
+        <item>Master Card</item>
+    </string-array>
+
+</resources>

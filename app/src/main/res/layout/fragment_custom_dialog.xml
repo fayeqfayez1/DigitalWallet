@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_rect_top"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:padding="@dimen/editTextMarginInside"
+    android:textDirection="ltr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginBtwnViews"
+        android:layout_marginEnd="@dimen/marginBtwnViews"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/HeaderTextViewStyle"
+            android:fontFamily="@font/muli_bold"
+            android:text="Title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titleTextSize"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_msg"
+            style="@style/TextViewStyle"
+            android:fontFamily="@font/muli_light"
+            android:singleLine="false"
+            android:textSize="@dimen/textSizeNormal"
+            tools:text="Are you sure you want to delete the language?" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/editTextMarginInside"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ok"
+            style="@style/BlueButtonStyle"
+            android:layout_weight="1"
+            android:text="OK" />
+
+        <Space
+            android:layout_width="@dimen/editTextMarginInside"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/WhiteButtonBlueBorderStyle"
+            android:layout_weight="1"
+            android:text="Cancel" />
+    </LinearLayout>
+</LinearLayout>
